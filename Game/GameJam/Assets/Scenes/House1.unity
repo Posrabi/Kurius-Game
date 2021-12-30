@@ -353,9 +353,10 @@ GameObject:
   - component: {fileID: 451963276}
   - component: {fileID: 451963275}
   - component: {fileID: 451963274}
+  - component: {fileID: 451963277}
   m_Layer: 0
   m_Name: Gift2
-  m_TagString: Untagged
+  m_TagString: Gift
   m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -421,6 +422,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &451963277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451963273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c48b6450d68c5c346a424006de10383b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &493827347
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,9 +686,10 @@ GameObject:
   - component: {fileID: 968316510}
   - component: {fileID: 968316509}
   - component: {fileID: 968316508}
+  - component: {fileID: 968316511}
   m_Layer: 0
   m_Name: Gift1
-  m_TagString: Untagged
+  m_TagString: Gift
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -741,6 +755,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &968316511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968316507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c48b6450d68c5c346a424006de10383b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1145402215
 GameObject:
   m_ObjectHideFlags: 0
@@ -1178,9 +1204,10 @@ GameObject:
   - component: {fileID: 1845441252}
   - component: {fileID: 1845441251}
   - component: {fileID: 1845441250}
+  - component: {fileID: 1845441253}
   m_Layer: 0
   m_Name: Gift3
-  m_TagString: Untagged
+  m_TagString: Gift
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1245,6 +1272,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1845441253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845441249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c48b6450d68c5c346a424006de10383b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1857788726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1857788728}
+  - component: {fileID: 1857788727}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1857788727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857788726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d3e9e65d4a37045a56bcb8d2f7b87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  presentsStolen: 0
+--- !u!4 &1857788728
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857788726}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.45177308, y: -0.60440236, z: -68.001015}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1942165392
 GameObject:
